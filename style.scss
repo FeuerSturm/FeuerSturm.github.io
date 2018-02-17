@@ -247,13 +247,20 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $darkGray;
+    margin: auto;
+    border: 1px solid #CCCCCC;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	background: rgb(34, 34, 34);
+	background: rgba(34, 34, 34, 0.85);
+	padding-top: 20px;  
+	padding-right: 20px;  
+	padding-bottom: 20px;  
+	padding-left: 20px;  
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
 	    margin: auto;
     border: 1px solid #CCCCCC;
 	-moz-border-radius:10px;

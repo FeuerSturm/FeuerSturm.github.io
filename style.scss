@@ -18,9 +18,14 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background: transparent;
+  font: 18px/1.4 "Special Elite";
+  color: $white;
+    background: url('https://feuersturm.github.io/images/fsinfobg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .container {
@@ -31,8 +36,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: "Special Elite";
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -156,7 +161,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid $white;
 
   @include mobile {
     text-align: center;
@@ -192,9 +197,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: "Special Elite";
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -202,7 +207,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -213,7 +218,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: "Special Elite";
   font-size: 18px;
 
   @include mobile {
@@ -225,7 +230,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -243,7 +248,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid $white;
 }
 
 .posts > .post:last-child {
@@ -256,7 +261,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $white;
     font-size: 22px;
     font-style: italic;
   }
